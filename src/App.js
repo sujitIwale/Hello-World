@@ -45,7 +45,7 @@ class  App extends Component   {
             <Navigation />
             <Scroll>
             <About />
-                <h1 className='f1 white'>Course  provide:</h1>
+                <h1 className='f1 white'>Courses we provide:</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CourseList list={filteredCourses} />
             </Scroll> 
